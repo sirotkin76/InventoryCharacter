@@ -49,20 +49,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\CurrentItem.cs" />
-     <Compile Include="Assets\Scripts\DestroyMassages.cs" />
-     <Compile Include="Assets\Scripts\Inventory.cs" />
-     <Compile Include="Assets\Scripts\Item.cs" />
-     <Compile Include="Assets\Scripts\Slot.cs" />
+     <Compile Include="Assets\Scripts\InfoKeyManager.cs" />
+     <Compile Include="Assets\Scripts\Inventory\CurrentItem.cs" />
+     <Compile Include="Assets\Scripts\Inventory\DestroyMassages.cs" />
+     <Compile Include="Assets\Scripts\Inventory\Inventory.cs" />
+     <Compile Include="Assets\Scripts\Inventory\Item.cs" />
+     <Compile Include="Assets\Scripts\Inventory\Slot.cs" />
      <Compile Include="Assets\World\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
      <Compile Include="Assets\World\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
      <Compile Include="Assets\World\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
      <Compile Include="Assets\World\Standard Assets\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
-     <Compile Include="Assets\World\Standard Assets\Characters\RollerBall\Scripts\Ball.cs" />
-     <Compile Include="Assets\World\Standard Assets\Characters\RollerBall\Scripts\BallUserControl.cs" />
-     <Compile Include="Assets\World\Standard Assets\Characters\ThirdPersonCharacter\Scripts\AICharacterControl.cs" />
-     <Compile Include="Assets\World\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonCharacter.cs" />
-     <Compile Include="Assets\World\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonUserControl.cs" />
      <Compile Include="Assets\World\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
      <Compile Include="Assets\World\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
      <Compile Include="Assets\World\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
@@ -101,9 +97,7 @@
      <None Include="Assets\World\Fruit Pack\Shaders\ToonLitTransparent.shader" />
      <None Include="Assets\World\Fruit Pack\Shaders\ToonLit.shader" />
      <None Include="Assets\World\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
-     <None Include="Assets\World\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\World\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
-     <None Include="Assets\World\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Programm/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
